@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    display: grid;
+}
+
+.formInicio {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    grid-row-gap: 5px;
+}
+
+.formInicio input {
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+.formInicio input[type="submit"] {
+    cursor: pointer;
+}
+
+canvas {
+    margin: auto;
+}
+
+input[type="submit"] {
+    background: green;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 4px;
+    border: 1px solid darkgreen;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+
+#menu {
+    max-height: 50px;
+}
+#options {
+    display: flex;
+}
+.terrain, .wayPoint, .endPoint {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    margin: 1px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: cursive;
+    text-align: center;
+    line-height: 12px;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+.wayPoint, .endPoint {
+    border-radius: 50%;
+}
