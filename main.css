@@ -41,9 +41,12 @@ input[type="submit"] {
 
 #menu {
     max-height: 50px;
+    display: flex;
+    justify-content: center;
 }
 #options {
     display: flex;
+    justify-content: center;
 }
 .terrain, .wayPoint, .endPoint {
     cursor: pointer;
