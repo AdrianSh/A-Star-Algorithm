@@ -1,19 +1,3 @@
-function paint(cellType) {
-    switch (cellType) {
-        case "Prohibida":
-            Assistent.builder.map.rect(Assistent.builder.map.terrains.wall, cell.x - 1, cell.y - 1, 1, 1);
-            Assistent.builder.map.render();
-            break;
-        case "Fin":
-            Assistent.builder.map.addEndPoint({ x: cell.x - 1, y: cell.y - 1 });
-            Assistent.builder.map.render();
-            break;
-        case "Inicio":
-            Assistent.builder.map.addWayPoint({ x: cell.x - 1, y: cell.y - 1 });
-            Assistent.builder.map.render();
-            break;
-    }
-}
 function Assistent() {
     var form = document.createElement("div");
     form.className = "formInicio";
